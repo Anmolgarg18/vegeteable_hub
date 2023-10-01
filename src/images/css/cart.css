@@ -1,0 +1,102 @@
+.cart{
+    display:flex;
+    flex-wrap: nowrap;
+    box-shadow:0px 1px 0px 0px grey;
+}
+.cart img{
+    padding-top: 40px;
+    height: 35vh;
+    width: 35vh;
+    margin-left: 15px;
+}
+.cart span1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: orange;
+    font-size: 6mm;
+
+}
+.cart span{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+    margin-right: 0px;
+    margin-bottom: 20vh;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    color: black;
+    font-size: 6mm;
+    border: 1px solid black;
+
+}
+.cart span2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20vh;
+    margin-left: 80px;
+    color: green;
+    font-size: 6mm;
+
+}
+.cart span2 i{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1vh;
+    font-size: 4mm;
+}
+.cart button{
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-size: 8mm;
+    color: green;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    padding:0px 5px;
+    
+}
+.total
+{
+    display:flex;
+    flex-wrap: nowrap;
+    box-shadow:0px 1px 0px 0px grey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: orange;
+    font-size: 8mm;
+}
+.total span {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 200;
+    
+    margin-right: 200px;
+    margin-left: 250px;
+    font-size: 10mm;
+    color: green;
+}
+.total i{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 5mm;
+
+}
+.total button{
+    margin-left: 200px;
+    background-color: green;
+    color: white;
+    font-size:smaller;
+    border-radius: 5px;
+    padding: 2px;
+}

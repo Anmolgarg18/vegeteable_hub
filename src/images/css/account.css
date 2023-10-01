@@ -1,0 +1,75 @@
+
+.headcontainers{
+  margin-top: 120px;
+}
+.headcontainers .containers .login button
+{color: #ffffff;
+ padding: 9px 25px;
+ background-color: rgb(57, 143, 51);
+ border:none;
+ border-radius: 50px;
+ cursor:pointer;
+ transition:all 0.3s ease 0s;
+ font-family:'Montserrat', sans-serif ;
+ font-weight: 500;
+font-size: 16px;
+margin-top: 9px;
+margin-bottom: 5px;
+margin-left: 70px;
+
+}
+.headcontainers .containers .login button:hover
+{
+background-color: rgb(50, 135, 44,0.6);
+}
+.containers{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  max-width: 850px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.headcontainers .containers .login{
+  width: 400px;
+}
+.headcontainers .containers .login form{
+  width: 250px;
+  margin: 60px auto;
+}
+.headcontainers .containers .login h1{
+  margin: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.headcontainers .containers .login p{
+  text-align: center;
+  margin: 10px;
+}
+.headcontainers .containers .login hr{
+  border-top: 2px solid tomato;
+}
+
+.headcontainers .containers .pic img{
+  width: 450px;
+  height: 90%;
+  ;
+}
+
+.headcontainers .containers .login form label{
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+}
+.headcontainers .containers .login input{
+  width: 100%;
+  margin: 2px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}

@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.outer{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height:60vh;
+}
+.colss{
+  border:1px solid black;
+  margin:5px;
+  width:25rem;
+  background-color: gray;
+}
+
+.colsss .btn{
+  border:1px solid black;
+  border-radius: 4px;
+  background-color: gray;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+.flex {
+
+display: flex;
+flex-wrap: wrap-reverse;  
+}
+.product-item{
+  margin-top: 25px;
+  padding: 15px;
+  width: 40vh;
+}
+.product-item img{
+  padding-bottom:10px ;
+  display: flex;
+  height: 25vh;
+  width: 25vh;
+  flex-wrap: wrap;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
