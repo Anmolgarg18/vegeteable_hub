@@ -1,0 +1,15 @@
+.mainhead
+{
+   margin-top: 10px;
+   margin-left: 42%;
+   font-size: 50px; 
+   color: var(--primary);
+   margin-bottom: -30px;
+   
+}
+
+
+.mainhead span h1{
+    
+    color: var(--secondary);
+}

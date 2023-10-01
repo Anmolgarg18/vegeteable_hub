@@ -1,0 +1,15 @@
+.photo{
+  justify-items: center;
+}
+.photo img{
+
+  height: 60vh;
+  width: 60vx;
+  padding-top: 40px;
+  border-radius: 3px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  margin-left: 65px;
+  margin-right: 20px;
+}

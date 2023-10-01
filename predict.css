@@ -1,0 +1,50 @@
+.outer .cont .rows h1{
+    color: orange;
+    font-size: 50px;
+    margin-left: 45px;
+    padding-bottom: 5px ;
+}
+.outer .cont .rows h1 span{
+    color: green;
+    
+}
+.rows_main .colss{
+    background-color: white;
+    border: none;
+}
+.rows_main .colss span{
+color: green;
+font-weight: bolder;
+font-size: large;
+margin-right: 40px;
+margin-left: 60px;
+
+}
+.rows_main .btn{
+    background-color: orange;
+    border-radius: 5px;
+    margin-left: 150px;
+    color: white;border: none;
+    margin-top: 15px;
+
+}
+#first{
+    margin-left: 60px;
+}
+#second{
+    margin-left: 30px;
+}
+#third{
+    margin-left: 50px;
+}
+#fourth{
+    margin-left: 90px;
+}
+.output{
+    margin-top: 20px;
+    font-size: large;
+    color:green;
+    font-weight: bolder;
+    margin-left: 80px;
+
+}
